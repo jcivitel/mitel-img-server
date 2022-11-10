@@ -1,0 +1,3 @@
+/.env
+/venv/
+/mitel_img_server/__pycache__
