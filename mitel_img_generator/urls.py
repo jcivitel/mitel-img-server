@@ -1,5 +1,6 @@
 from django.urls import path
+from . import views
 
 urlpatterns = [
-    path("/<str:customer>", )
+    path("<str:customer>/<str:phonemodel>", views.get_image)
 ]

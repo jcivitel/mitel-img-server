@@ -1,3 +1,7 @@
 /.env
 /venv/
 /mitel_img_server/__pycache__
+/mitel-img.CustomerFiles
+/mitel_img_generator/__pycache__
+/mitel_img_generator/migrations
+/__pycache__
