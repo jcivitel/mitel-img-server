@@ -16,6 +16,8 @@ class Customer(models.Model):
 
 class PhoneModel(models.Model):
     phone_model = models.CharField(max_length=30)
+    size_x = models.IntegerField(default=320)
+    size_y = models.IntegerField(default=240)
     pos_x = models.IntegerField(default=0)
     pos_y = models.IntegerField(default=0)
 
